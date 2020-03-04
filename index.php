@@ -9,13 +9,13 @@
 <body>
     <?php
         //Constrói o cabeçalho da página
-        require './view/header.php';
+        require './view/lista-tarefas/header.php';
 
         //Constrói o corpo da página
-        require './view/body.php';
+        require './view/lista-tarefas/body.php';
 
         //Constrói o rodapé da página
-        require './view/footer.php';
+        require './view/lista-tarefas/footer.php';
     ?>
 </body>
 </html>
