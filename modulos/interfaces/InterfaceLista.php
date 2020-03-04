@@ -30,6 +30,7 @@ interface InterfaceLista
  * 4. Sempre pensar na expansão do sistema e upgrade de tecnologia
  * 5. Ter em mente sempre o escalonamento
  * 6. O sistema será construído como blocos de encaixe (módulos que se juntam)
+ * 7. Simplificar o máximo possível. Quando já estiver simples, tentar simplificar ainda mais
 */
 
 /**
