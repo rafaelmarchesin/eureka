@@ -2,7 +2,7 @@
 
 //Construir a lista de tarefas aqui
 
-require_once "./modelos/ModeloLista.php";
+require_once __DIR__ . "/modelos/ModeloLista.php";
 
 class ListaTarefas extends ModeloLista
 {

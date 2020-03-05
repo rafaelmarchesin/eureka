@@ -15,12 +15,12 @@
 
 <?php
 
-require './modulos/ListaTarefas.php';
+require __DIR__ . '/modulos/ListaTarefas.php';
 
 $teste = new ListaTarefas;
 
 //var_dump($teste->entradaDados('tarefa'));
 
-echo $teste->entradaDados();
+//echo $teste->entradaDados();
 
 ?>

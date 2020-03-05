@@ -1,6 +1,6 @@
 <?php
 
-require_once './interfaces/InterfaceLista.php';
+require_once __DIR__ . '/../interfaces/InterfaceLista.php';
 
 abstract class ModeloLista implements InterfaceLista
 {
