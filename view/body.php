@@ -1,3 +1,4 @@
+
 <div class="container" id="container">
     <div class="entrada-dados-container" id="entrada-dados-container">
         <form action="index.php" method="POST">
@@ -12,15 +13,14 @@
     </div>
 </div>
 
+<?php
 
+require './modulos/ListaTarefas.php';
 
+$teste = new ListaTarefas;
 
-<p>AQUI ENTRA A LISTA</p>
-<form action="index.php" method="POST">
-    <input type="text" class="insere-tarefa" id="insere-tarefa" name="insere-tarefa">
-    <input type="submit" value="Gravar">
-</form>
+//var_dump($teste->entradaDados('tarefa'));
 
-<?php 
-    require 'teste.php';
-    echo "<h2>Seu nome é: {$teste}</h2>";
+echo $teste->entradaDados();
+
+?>
