@@ -1,0 +1,17 @@
+<div class="container" id="container">
+    <div class="entrada-dados-container" id="entrada-dados-container">
+        <form action="./" method="POST">
+            <input type="text" class="entrada-dados" id="entrada-dados" name="task" placeholder="Nova tarefa...">
+        </form>
+    </div>
+    <div class="lista" id="lista">
+        <!-- Começa o FOREACH do PHP -->
+        <?php foreach ($this->views->todolist as $task): ?>
+            <div class="container-tarefa" id="container-tarefa">
+                <input type="checkbox" class="tarefa" id="tarefa" name="tarefa" value="tarefa">
+                <?php echo $task['task'] ?>
+            </div>
+        <?php endforeach; ?>
+        <!-- Termina o FOREACH do PHP -->
+    </div>
+</div>

@@ -1,0 +1,4 @@
+CREATE TABLE todo_list_table (
+id INT(6) not null AUTO_INCREMENT PRIMARY KEY,
+task VARCHAR(140) NOT NULL
+);

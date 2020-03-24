@@ -5,7 +5,7 @@ body {
 .container {
     background-color: azure;
     width: 300px;
-    height: 460px;
+    height: 100%;
     margin: auto;
     padding: 5px;
 }
@@ -26,7 +26,7 @@ body {
 .lista {
     background-color: cornflowerblue;
     width: 100%;
-    height: 403px;
+    height: 100%;
     color: #ffffff;
     font-size: 20px;
 }
